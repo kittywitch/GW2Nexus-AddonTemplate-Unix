@@ -1,0 +1,4 @@
+#include "resources.h"
+
+IMG_RAIDCORE    PNG         "../resources/raidcore.png"
+
