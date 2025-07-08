@@ -98,7 +98,7 @@ jobs:
       name: artifact upload
       uses: actions/upload-artifact@v4
       with:
-        name: nexus_example_addon
+        name: nexus_example_c++_addon
         path: .ci/artifacts/lib/libclion_demo*.dll
     - id: release-upload
       if: startsWith(github.ref, 'refs/tags/')
