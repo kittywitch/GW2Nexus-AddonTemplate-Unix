@@ -1,7 +1,6 @@
 {
   description = "example C++ nexus addon";
   inputs = {
-    self.submodules = false;
     flake-compat = {
       url = "github:edolstra/flake-compat";
       flake = false;
