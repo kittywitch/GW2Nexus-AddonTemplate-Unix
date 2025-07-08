@@ -1,5 +1,5 @@
 {
-  description = "example nexus-rs addon";
+  description = "example C++ nexus addon";
   inputs = {
     self.submodules = true;
     flake-compat = {

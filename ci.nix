@@ -74,7 +74,7 @@ in
               name = "artifact upload";
               uses.path = "actions/upload-artifact@v4";
               "with" = {
-                name = "nexus_example_addon";
+                name = "nexus_example_c++_addon";
                 path = artifacts;
               };
             };
