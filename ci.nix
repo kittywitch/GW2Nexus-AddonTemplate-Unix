@@ -25,7 +25,7 @@ in
     };
     tasks = {
       build.inputs = with packages; [ example ];
-      cache.inputs = with packages; [ example example.cargoArtifacts ];
+      cache.inputs = with packages; [ example ];
     };
     jobs = {
       main = {
